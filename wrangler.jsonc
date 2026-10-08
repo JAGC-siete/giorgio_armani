@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "jorge",
+  "compatibility_date": "2026-09-01",
+  // Solo archivos estáticos: Cloudflare sirve /public directo.
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  },
+  // humanosisu.net ya está en Cloudflare: el custom domain crea el DNS y el certificado.
+  "routes": [
+    { "pattern": "jorge.humanosisu.net", "custom_domain": true }
+  ],
+  "workers_dev": false,
+  "observability": { "enabled": true }
+}
