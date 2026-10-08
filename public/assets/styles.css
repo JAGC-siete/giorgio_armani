@@ -83,3 +83,6 @@ footer{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;paddin
   .built small{display:none}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+.hero .label{display:block;margin-bottom:18px}
+a.stat{text-decoration:none}
+a.stat:hover{text-decoration:underline}
