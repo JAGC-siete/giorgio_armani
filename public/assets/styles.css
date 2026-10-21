@@ -32,7 +32,7 @@ p{margin:0}
 .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--leaf);margin-right:7px;vertical-align:1px}
 
 .hero{padding-block:clamp(48px,10vw,110px) clamp(40px,7vw,72px)}
-.hero h1{font-size:clamp(1.9rem,6vw,3.4rem);letter-spacing:-.025em;font-weight:500}
+.hero h1{font-size:clamp(2.6rem,9vw,5.6rem);letter-spacing:-.025em;font-weight:500}
 .hero h1 em{font-style:italic;color:var(--accent)}
 .hero p{max-width:58ch;font-size:clamp(1.08rem,2.2vw,1.25rem);color:var(--muted);margin-top:24px}
 .facets{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px;padding:0;list-style:none}
